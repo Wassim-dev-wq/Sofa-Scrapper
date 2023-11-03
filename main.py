@@ -14,6 +14,7 @@ from openpyxl import load_workbook
 df_tennis = None
 df_foot = None
 
+
 def fetch_data_multi(url, headers):
     try:
         response = requests.get(url, headers=headers)
